@@ -1,8 +1,8 @@
 {
-    "version":  "1.2.0",
-    "notes":  "Canvas sync through your browser: no token needed. Click the Sync Dr. Claude bookmark on Canvas.",
+    "version":  "1.3.0",
+    "notes":  "New: Guide + DRC 101 class (how to use Dr. Claude, Codex, Codex in Chrome, and good prompts), Ideas box to send ideas and problems, hold Space to talk, a smarter calculator that understands words, pictures in chat, chat attachments, and a textbook finder.",
     "zip_url":  "https://raw.githubusercontent.com/Blondeylocks/dr-claude-updates/main/DrClaude-app.zip",
-    "sha256":  "e42c60f09cb61e0640e4fb0bff44137454a2fef4d2aff6f8919f484d11b77294",
+    "sha256":  "0bcfcc2cd48c039af8dc514e5042ffb75a7c6e5ea7c12916160cf1c4a7f4789b",
     "min_version":  "1.1.0",
-    "published":  "2026-10-25T01:38:23"
+    "published":  "2026-10-25T13:38:59"
 }
