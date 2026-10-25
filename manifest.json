@@ -1,0 +1,8 @@
+{
+    "version":  "1.2.0",
+    "notes":  "Canvas sync through your browser: no token needed. Click the Sync Dr. Claude bookmark on Canvas.",
+    "zip_url":  "https://raw.githubusercontent.com/Blondeylocks/dr-claude-updates/main/DrClaude-app.zip",
+    "sha256":  "38f9679066d4f07af63a7e5cbf01d9cae3a73564b53d42d700a61cbbd5121bff",
+    "min_version":  "1.1.0",
+    "published":  "2026-10-25T01:36:45"
+}
