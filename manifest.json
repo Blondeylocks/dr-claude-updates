@@ -1,8 +1,8 @@
 {
-    "version":  "1.4.1",
-    "notes":  "Voice typing is now live: your words show up in the chat box as you talk, instead of all at once when you stop the mic.",
+    "version":  "1.4.2",
+    "notes":  "Voice typing no longer doubles your last sentence when you stop the mic, and Dr. Claude will remind you once per session that you can just talk to it.",
     "zip_url":  "https://raw.githubusercontent.com/Blondeylocks/dr-claude-updates/main/DrClaude-app.zip",
-    "sha256":  "cd44b83df99e93661a85eea40e30df201b90079973062dafe43f55d767d2f87d",
+    "sha256":  "4dbe2ab8c0109f9f694d4d06dd36c7efe044760f6f1005b9c8a570514a26c0c2",
     "min_version":  "1.1.0",
-    "published":  "2026-11-09T16:00:55"
+    "published":  "2026-11-11T10:29:52"
 }
