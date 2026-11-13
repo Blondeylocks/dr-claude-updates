@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Install Dr. Claude</title>
+<meta name="description" content="Install Dr. Claude, your free study professor, on a Mac or Windows laptop.">
+<style>
+  :root {
+    --bg: #f6f4ef; --card: #ffffff; --ink: #1d2230; --muted: #5d6475; --line: #e3dfd5;
+    --gold: #d9a520; --gold-ink: #2a1f00; --code: #f1efe9; --ok: #1f8a4c; --tab: #ece8df;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0e1422; --card: #172033; --ink: #eef1f7; --muted: #a3acc0; --line: #2a3550;
+            --gold: #e3b341; --gold-ink: #241a00; --code: #0f1626; --ok: #4cc785; --tab: #1d2840; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 56px; }
+  h1 { font-size: 2rem; margin: 0 0 6px; }
+  .lead { color: var(--muted); margin: 0 0 24px; }
+  .tabs { display: flex; gap: 6px; background: var(--tab); padding: 5px; border-radius: 12px; margin-bottom: 18px; }
+  .tabs button { flex: 1; border: 0; background: transparent; color: var(--ink); font: inherit; font-weight: 600; padding: 10px; border-radius: 9px; cursor: pointer; }
+  .tabs button[aria-selected="true"] { background: var(--card); box-shadow: 0 1px 3px rgba(0,0,0,.12); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 22px 20px; }
+  .step { display: grid; grid-template-columns: 40px 1fr; gap: 14px; padding: 16px 0; border-top: 1px solid var(--line); }
+  .step:first-child { border-top: 0; padding-top: 4px; }
+  .step > div { min-width: 0; }
+  .num { width: 36px; height: 36px; border-radius: 50%; background: var(--gold); color: var(--gold-ink); font-weight: 800; display: grid; place-items: center; }
+  .step h2 { font-size: 1.12rem; margin: 4px 0 6px; }
+  .step p { margin: 0 0 8px; }
+  .big { display: inline-flex; align-items: center; gap: 10px; border: 0; border-radius: 12px; background: var(--gold); color: var(--gold-ink);
+         font: inherit; font-weight: 800; font-size: 1.1rem; padding: 14px 22px; cursor: pointer; text-decoration: none; }
+  .big:active { transform: translateY(1px); }
+  .big.done { background: var(--ok); color: #fff; }
+  pre { background: var(--code); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; margin: 12px 0 0;
+        font: 13px/1.4 ui-monospace, Menlo, Consolas, monospace; white-space: pre; overflow-x: auto; user-select: all; }
+  kbd { display: inline-block; min-width: 30px; text-align: center; padding: 2px 9px; border: 1px solid var(--line); border-bottom-width: 3px;
+        border-radius: 7px; background: var(--code); font: 600 .95rem/1.5 inherit; font-family: inherit; }
+  .muted { color: var(--muted); font-size: .95rem; }
+  .note { margin-top: 18px; padding: 14px 16px; border-radius: 12px; border: 1px dashed var(--line); color: var(--muted); font-size: .95rem; }
+  .note b { color: var(--ink); }
+  footer { margin-top: 26px; color: var(--muted); font-size: .9rem; text-align: center; }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<main>
+  <h1>🎓 Install Dr. Claude</h1>
+  <p class="lead">Your free study professor. It reads your classes from Canvas and teaches, quizzes, and tests you at your class’s pace. Setup takes about 2 minutes.</p>
+
+  <div class="tabs" role="tablist">
+    <button role="tab" id="tMac" aria-selected="false">💻 Mac</button>
+    <button role="tab" id="tWin" aria-selected="false">⊞ Windows</button>
+  </div>
+
+  <section class="card" id="mac" hidden>
+    <div class="step"><div class="num">1</div><div>
+      <h2>Copy the install line</h2>
+      <button class="big" id="copy">📋 Copy</button>
+      <pre id="cmd">curl -fsSL https://raw.githubusercontent.com/Blondeylocks/dr-claude-updates/main/install-mac.sh | bash</pre>
+      <p class="muted" style="margin-top:8px">That’s all you copy. It installs Dr. Claude for you, with no password and no admin needed.</p>
+    </div></div>
+    <div class="step"><div class="num">2</div><div>
+      <h2>Open Terminal</h2>
+      <p>Press <kbd>⌘ Cmd</kbd> + <kbd>Space</kbd>, type <b>Terminal</b>, and press <kbd>Return</kbd>.</p>
+      <p class="muted">A small window with text opens. That’s Terminal. It’s normal.</p>
+    </div></div>
+    <div class="step"><div class="num">3</div><div>
+      <h2>Paste and press Return</h2>
+      <p>Click in the Terminal window, press <kbd>⌘ Cmd</kbd> + <kbd>V</kbd>, then <kbd>Return</kbd>.</p>
+      <p class="muted">Wait about 2 minutes. Dr. Claude opens by itself and walks you through the rest. Next time, open it from your <b>Applications</b> folder or the <b>Dr. Claude</b> icon on your Desktop.</p>
+    </div></div>
+    <div class="note"><b>Mac asks to let Dr. Claude use a folder?</b> Click <b>Allow</b>. It keeps your class files in Documents.<br>
+      <b>Stuck?</b> Take a screenshot of the Terminal window and send it to the person who sent you this link.</div>
+  </section>
+
+  <section class="card" id="win" hidden>
+    <div class="step"><div class="num">1</div><div>
+      <h2>Download Dr. Claude</h2>
+      <a class="big" id="dl" href="https://raw.githubusercontent.com/Blondeylocks/dr-claude-updates/main/Dr-Claude-Setup.zip">⬇️ Download for Windows</a>
+      <p class="muted" style="margin-top:8px">About 11 MB. It saves to your <b>Downloads</b> folder.</p>
+    </div></div>
+    <div class="step"><div class="num">2</div><div>
+      <h2>Unzip it</h2>
+      <p>Open <b>Downloads</b>, right-click <b>Dr-Claude-Setup</b>, pick <b>Extract All…</b>, then click <b>Extract</b>.</p>
+      <p class="muted">Don’t run it from inside the zip. Extract it first.</p>
+    </div></div>
+    <div class="step"><div class="num">3</div><div>
+      <h2>Double-click “Install Dr. Claude”</h2>
+      <p>In the new <b>Dr Claude Setup</b> folder, double-click <b>Install Dr. Claude</b>. It sets everything up and opens Dr. Claude.</p>
+      <p class="muted">Blue “Windows protected your PC” box? Click <b>More info</b>, then <b>Run anyway</b>. Windows shows that for new apps that aren’t from a big company.</p>
+    </div></div>
+    <div class="note"><b>Next time</b>, open Dr. Claude from the icon on your Desktop or the Start menu.<br>
+      <b>Stuck?</b> Take a screenshot and send it to the person who sent you this link.</div>
+  </section>
+
+  <footer>Free. No account to make. Your classes and notes stay on your own computer.</footer>
+</main>
+<script>
+  const isMac = /Mac|iPhone|iPad/i.test(navigator.userAgentData?.platform || navigator.platform || navigator.userAgent);
+  const show = mac => {
+    document.getElementById('mac').hidden = !mac;
+    document.getElementById('win').hidden = mac;
+    document.getElementById('tMac').setAttribute('aria-selected', mac);
+    document.getElementById('tWin').setAttribute('aria-selected', !mac);
+  };
+  document.getElementById('tMac').onclick = () => show(true);
+  document.getElementById('tWin').onclick = () => show(false);
+  show(location.hash === '#windows' ? false : location.hash === '#mac' ? true : isMac);
+
+  const btn = document.getElementById('copy'), cmd = document.getElementById('cmd').textContent.trim();
+  btn.onclick = async () => {
+    let ok = false;
+    try { await navigator.clipboard.writeText(cmd); ok = true; } catch (e) {
+      const t = document.createElement('textarea'); t.value = cmd; document.body.appendChild(t); t.select();
+      try { ok = document.execCommand('copy'); } catch (x) {} t.remove();
+    }
+    btn.textContent = ok ? '✅ Copied! Now do step 2' : 'Select the gray box and press ⌘C';
+    btn.classList.toggle('done', ok);
+  };
+</script>
+</body>
+</html>
