@@ -1,8 +1,8 @@
 {
-    "version":  "1.4.3",
-    "notes":  "Voice upgrade: Dr. Claude can now hear how sure you sound and explain more when you hesitate (opt-in in Settings). Faster voice on laptops without an NVIDIA card, and no more junk text from short sounds.",
+    "version":  "1.4.4",
+    "notes":  "Voice is now ON for everyone: Dr. Claude installs the voice upgrade in the background (about 750 MB, one time) and starts noticing when you sound unsure so it can explain more. Your voice is never saved. You can turn either one off in Settings.",
     "zip_url":  "https://raw.githubusercontent.com/Blondeylocks/dr-claude-updates/main/DrClaude-app.zip",
-    "sha256":  "f4f21e287e2b39e1fc59bc5d34bd2f30cbaf81978f04ae06d4ba1937c3a4d92e",
+    "sha256":  "59cd2eabb582c30de73448f7b440319d23d9a9e4c561cceb488362cebfbc7e4a",
     "min_version":  "1.1.0",
-    "published":  "2026-11-12T20:15:02"
+    "published":  "2026-11-12T20:24:27"
 }
