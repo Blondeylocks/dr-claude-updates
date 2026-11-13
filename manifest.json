@@ -1,8 +1,8 @@
 {
-    "version":  "1.5.0",
-    "notes":  "Dr. Claude now works on Mac too! Nothing changes on Windows.",
+    "version":  "1.6.0",
+    "notes":  "New: use your own Claude account as Dr. Claude\u0027s brain (now the first option). Got Claude Pro or Max? Settings \u003e Brain \u003e Claude.",
     "zip_url":  "https://raw.githubusercontent.com/Blondeylocks/dr-claude-updates/main/DrClaude-app.zip",
-    "sha256":  "44ef84ec651e35a4191fd64ab8ca83d2f3bc8e10005e7645139746199a3fe8fb",
+    "sha256":  "c7f3b17d9049e0593c8702082e23f4472342abdc6cb72ac88ce084ff091460af",
     "min_version":  "1.1.0",
-    "published":  "2026-11-12T21:03:07"
+    "published":  "2026-11-12T21:25:37"
 }
