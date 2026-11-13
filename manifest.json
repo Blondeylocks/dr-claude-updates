@@ -1,8 +1,8 @@
 {
-    "version":  "1.4.4",
-    "notes":  "Voice is now ON for everyone: Dr. Claude installs the voice upgrade in the background (about 750 MB, one time) and starts noticing when you sound unsure so it can explain more. Your voice is never saved. You can turn either one off in Settings.",
+    "version":  "1.4.5",
+    "notes":  "New: a setup helper. Under every setup screen there\u0027s a list of common questions. Click yours to see exactly what to do, with follow-ups if you\u0027re still stuck. Also removed the textbook web search.",
     "zip_url":  "https://raw.githubusercontent.com/Blondeylocks/dr-claude-updates/main/DrClaude-app.zip",
-    "sha256":  "59cd2eabb582c30de73448f7b440319d23d9a9e4c561cceb488362cebfbc7e4a",
+    "sha256":  "d76acd798d5ec72954e734b49891ed3c23911cd5d1b15749bad68fe5f5bfd3fe",
     "min_version":  "1.1.0",
-    "published":  "2026-11-12T20:24:27"
+    "published":  "2026-11-12T20:41:12"
 }
